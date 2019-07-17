@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.MenuV2" hash-for-method="backOnParticularPage">backOnParticularPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.AnnouncementV2" hash-for-method="clickOnAnnouncementMenu">clickOnAnnouncementMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.AnnouncementV2" hash-for-method="clickOnBackButtonAnnouncement">clickOnBackButtonAnnouncement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.EventV2" hash-for-method="clickOnContextualMenuAddToCalendar">clickOnContextualMenuAddToCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.EventV2" hash-for-method="clickOnContextualMenuShare">clickOnContextualMenuShare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.EventV2" hash-for-method="clickOnContextualMenuShareCancel">clickOnContextualMenuShareCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.EventV2" hash-for-method="clickOnEventPlaceHolder">clickOnEventPlaceHolder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.EventV2" hash-for-method="clickOnGalleryImageForZoomIn">clickOnGalleryImageForZoomIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.AnnouncementV2" hash-for-method="clickOnHomeMenuIcon">clickOnHomeMenuIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.MenuV2" hash-for-method="clickOnMenuButton">clickOnMenuButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.MenuV2" hash-for-method="clickOnMenuEvents">clickOnMenuEvents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.EventV2" hash-for-method="clickOnNumber">clickOnNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.AnnouncementV2" hash-for-method="clickOnOneOfAnnouncementInList">clickOnOneOfAnnouncementInList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.MenuV2" hash-for-method="clickOnOneofEventInList">clickOnOneofEventInList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.EventV2" hash-for-method="clickOncontextualMenu">clickOncontextualMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.AnnouncementV2" hash-for-method="enterAnnouncementNameInTextField">enterAnnouncementNameInTextField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.MenuV2" hash-for-method="enterEventNameInTextField">enterEventNameInTextField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.EventV2" hash-for-method="getOrientationForDevice">getOrientationForDevice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.moofwd.V2Test.V2.AnnouncementV2" hash-for-method="slideOfAnnouncement">slideOfAnnouncement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.moofwd.V2Test.V2.AnnouncementV2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnAnnouncementMenu">
+                  </a> <!-- clickOnAnnouncementMenu -->
+                  <span class="method-name">clickOnAnnouncementMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnBackButtonAnnouncement">
+                  </a> <!-- clickOnBackButtonAnnouncement -->
+                  <span class="method-name">clickOnBackButtonAnnouncement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnHomeMenuIcon">
+                  </a> <!-- clickOnHomeMenuIcon -->
+                  <span class="method-name">clickOnHomeMenuIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnOneOfAnnouncementInList">
+                  </a> <!-- clickOnOneOfAnnouncementInList -->
+                  <span class="method-name">clickOnOneOfAnnouncementInList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterAnnouncementNameInTextField">
+                  </a> <!-- enterAnnouncementNameInTextField -->
+                  <span class="method-name">enterAnnouncementNameInTextField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="slideOfAnnouncement">
+                  </a> <!-- slideOfAnnouncement -->
+                  <span class="method-name">slideOfAnnouncement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.moofwd.V2Test.V2.MenuV2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="backOnParticularPage">
+                  </a> <!-- backOnParticularPage -->
+                  <span class="method-name">backOnParticularPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnMenuButton">
+                  </a> <!-- clickOnMenuButton -->
+                  <span class="method-name">clickOnMenuButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnMenuEvents">
+                  </a> <!-- clickOnMenuEvents -->
+                  <span class="method-name">clickOnMenuEvents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnOneofEventInList">
+                  </a> <!-- clickOnOneofEventInList -->
+                  <span class="method-name">clickOnOneofEventInList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEventNameInTextField">
+                  </a> <!-- enterEventNameInTextField -->
+                  <span class="method-name">enterEventNameInTextField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.moofwd.V2Test.V2.EventV2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnContextualMenuAddToCalendar">
+                  </a> <!-- clickOnContextualMenuAddToCalendar -->
+                  <span class="method-name">clickOnContextualMenuAddToCalendar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnContextualMenuShare">
+                  </a> <!-- clickOnContextualMenuShare -->
+                  <span class="method-name">clickOnContextualMenuShare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnContextualMenuShareCancel">
+                  </a> <!-- clickOnContextualMenuShareCancel -->
+                  <span class="method-name">clickOnContextualMenuShareCancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnEventPlaceHolder">
+                  </a> <!-- clickOnEventPlaceHolder -->
+                  <span class="method-name">clickOnEventPlaceHolder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnGalleryImageForZoomIn">
+                  </a> <!-- clickOnGalleryImageForZoomIn -->
+                  <span class="method-name">clickOnGalleryImageForZoomIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnNumber">
+                  </a> <!-- clickOnNumber -->
+                  <span class="method-name">clickOnNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOncontextualMenu">
+                  </a> <!-- clickOncontextualMenu -->
+                  <span class="method-name">clickOncontextualMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getOrientationForDevice">
+                  </a> <!-- getOrientationForDevice -->
+                  <span class="method-name">getOrientationForDevice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/darshanborse/Documents/workspace/V2/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.moofwd.V2Base.TestBase&quot;/&gt;
+      &lt;class name=&quot;com.moofwd.V2Test.V2.EventV2&quot;/&gt;
+      &lt;class name=&quot;com.moofwd.V2Test.V2.MenuV2&quot;/&gt;
+      &lt;class name=&quot;com.moofwd.V2Test.V2.AnnouncementV2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getOrientationForDevice')
+data.setCell(0, 2, 'com.moofwd.V2Test.V2.EventV2')
+data.setCell(0, 3, 16569);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickOnNumber')
+data.setCell(1, 2, 'com.moofwd.V2Test.V2.EventV2')
+data.setCell(1, 3, 14726);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickOnGalleryImageForZoomIn')
+data.setCell(2, 2, 'com.moofwd.V2Test.V2.EventV2')
+data.setCell(2, 3, 14569);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickOnContextualMenuShareCancel')
+data.setCell(3, 2, 'com.moofwd.V2Test.V2.EventV2')
+data.setCell(3, 3, 13775);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickOnHomeMenuIcon')
+data.setCell(4, 2, 'com.moofwd.V2Test.V2.AnnouncementV2')
+data.setCell(4, 3, 12527);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickOnEventPlaceHolder')
+data.setCell(5, 2, 'com.moofwd.V2Test.V2.EventV2')
+data.setCell(5, 3, 11322);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'slideOfAnnouncement')
+data.setCell(6, 2, 'com.moofwd.V2Test.V2.AnnouncementV2')
+data.setCell(6, 3, 10154);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickOncontextualMenu')
+data.setCell(7, 2, 'com.moofwd.V2Test.V2.EventV2')
+data.setCell(7, 3, 8852);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickOnMenuButton')
+data.setCell(8, 2, 'com.moofwd.V2Test.V2.MenuV2')
+data.setCell(8, 3, 8674);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickOnAnnouncementMenu')
+data.setCell(9, 2, 'com.moofwd.V2Test.V2.AnnouncementV2')
+data.setCell(9, 3, 7666);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'backOnParticularPage')
+data.setCell(10, 2, 'com.moofwd.V2Test.V2.MenuV2')
+data.setCell(10, 3, 7511);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'clickOnOneOfAnnouncementInList')
+data.setCell(11, 2, 'com.moofwd.V2Test.V2.AnnouncementV2')
+data.setCell(11, 3, 7497);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clickOnContextualMenuAddToCalendar')
+data.setCell(12, 2, 'com.moofwd.V2Test.V2.EventV2')
+data.setCell(12, 3, 5680);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickOnBackButtonAnnouncement')
+data.setCell(13, 2, 'com.moofwd.V2Test.V2.AnnouncementV2')
+data.setCell(13, 3, 5400);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'enterAnnouncementNameInTextField')
+data.setCell(14, 2, 'com.moofwd.V2Test.V2.AnnouncementV2')
+data.setCell(14, 3, 4868);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'enterEventNameInTextField')
+data.setCell(15, 2, 'com.moofwd.V2Test.V2.MenuV2')
+data.setCell(15, 3, 3386);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'clickOnOneofEventInList')
+data.setCell(16, 2, 'com.moofwd.V2Test.V2.MenuV2')
+data.setCell(16, 3, 3155);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'clickOnMenuEvents')
+data.setCell(17, 2, 'com.moofwd.V2Test.V2.MenuV2')
+data.setCell(17, 3, 2840);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'clickOnContextualMenuShare')
+data.setCell(18, 2, 'com.moofwd.V2Test.V2.EventV2')
+data.setCell(18, 3, 2350);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.moofwd.V2Test.V2.AnnouncementV2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">init</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.moofwd.V2Test.V2.MenuV2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">init</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.moofwd.V2Test.V2.EventV2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">init</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.moofwd.V2Base.TestBase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.moofwd.V2Test.V2.EventV2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7310 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickOnEventPlaceHolder</span>
+                <span class="method-start">7551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnEventPlaceHolder status=SUCCESS method=EventV2.clickOnEventPlaceHolder()[pri...)</span>
+                <span class="method-start">18875 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOncontextualMenu</span>
+                <span class="method-start">18881 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOncontextualMenu status=SUCCESS method=EventV2.clickOncontextualMenu()[pri:2, ...)</span>
+                <span class="method-start">27734 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnContextualMenuShare</span>
+                <span class="method-start">27735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnContextualMenuShare status=SUCCESS method=EventV2.clickOnContextualMenuShare...)</span>
+                <span class="method-start">30086 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnContextualMenuShareCancel</span>
+                <span class="method-start">30087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnContextualMenuShareCancel status=SUCCESS method=EventV2.clickOnContextualMen...)</span>
+                <span class="method-start">43863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnContextualMenuAddToCalendar</span>
+                <span class="method-start">43865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnContextualMenuAddToCalendar status=SUCCESS method=EventV2.clickOnContextualM...)</span>
+                <span class="method-start">49548 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnNumber</span>
+                <span class="method-start">49549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getOrientationForDevice</span>
+                <span class="method-start">64276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnNumber status=SUCCESS method=EventV2.clickOnNumber()[pri:8, instance:com.moo...)</span>
+                <span class="method-start">64276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=getOrientationForDevice status=SUCCESS method=EventV2.getOrientationForDevice()[pri...)</span>
+                <span class="method-start">80846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnGalleryImageForZoomIn</span>
+                <span class="method-start">80847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnGalleryImageForZoomIn status=SUCCESS method=EventV2.clickOnGalleryImageForZo...)</span>
+                <span class="method-start">95417 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.moofwd.V2Test.V2.MenuV2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">95418 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickOnMenuButton</span>
+                <span class="method-start">95438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnMenuButton status=SUCCESS method=MenuV2.clickOnMenuButton()[pri:11, instance...)</span>
+                <span class="method-start">104113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnMenuEvents</span>
+                <span class="method-start">104114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnMenuEvents status=SUCCESS method=MenuV2.clickOnMenuEvents()[pri:12, instance...)</span>
+                <span class="method-start">106955 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">enterEventNameInTextField</span>
+                <span class="method-start">106956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=enterEventNameInTextField status=SUCCESS method=MenuV2.enterEventNameInTextField()[...)</span>
+                <span class="method-start">110343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnOneofEventInList</span>
+                <span class="method-start">110344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">backOnParticularPage</span>
+                <span class="method-start">113501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnOneofEventInList status=SUCCESS method=MenuV2.clickOnOneofEventInList()[pri:...)</span>
+                <span class="method-start">113501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=backOnParticularPage status=SUCCESS method=MenuV2.backOnParticularPage()[pri:15, in...)</span>
+                <span class="method-start">121013 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.moofwd.V2Test.V2.AnnouncementV2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">121013 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickOnAnnouncementMenu</span>
+                <span class="method-start">121029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnAnnouncementMenu status=SUCCESS method=AnnouncementV2.clickOnAnnouncementMen...)</span>
+                <span class="method-start">128696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">enterAnnouncementNameInTextField</span>
+                <span class="method-start">128697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=enterAnnouncementNameInTextField status=SUCCESS method=AnnouncementV2.enterAnnounce...)</span>
+                <span class="method-start">133565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnOneOfAnnouncementInList</span>
+                <span class="method-start">133566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnOneOfAnnouncementInList status=SUCCESS method=AnnouncementV2.clickOnOneOfAnn...)</span>
+                <span class="method-start">141063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnBackButtonAnnouncement</span>
+                <span class="method-start">141064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnHomeMenuIcon</span>
+                <span class="method-start">146465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnBackButtonAnnouncement status=SUCCESS method=AnnouncementV2.clickOnBackButto...)</span>
+                <span class="method-start">146465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickOnHomeMenuIcon status=SUCCESS method=AnnouncementV2.clickOnHomeMenuIcon()[pri:...)</span>
+                <span class="method-start">158993 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">slideOfAnnouncement</span>
+                <span class="method-start">158994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=slideOfAnnouncement status=SUCCESS method=AnnouncementV2.slideOfAnnouncement()[pri:...)</span>
+                <span class="method-start">169149 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.moofwd.V2Base.TestBase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">169323 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

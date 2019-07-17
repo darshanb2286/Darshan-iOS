@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.moofwd.V2Test.V2.AnnouncementV2">
+        <methods>
+          <include name="enterAnnouncementNameInTextField"/>
+          <include name="clickOnAnnouncementMenu"/>
+          <include name="clickOnOneOfAnnouncementInList"/>
+          <include name="slideOfAnnouncement"/>
+          <include name="clickOnHomeMenuIcon"/>
+          <include name="clickOnBackButtonAnnouncement"/>
+        </methods>
+      </class> <!-- com.moofwd.V2Test.V2.AnnouncementV2 -->
+      <class name="com.moofwd.V2Test.V2.MenuV2">
+        <methods>
+          <include name="backOnParticularPage"/>
+          <include name="clickOnMenuEvents"/>
+          <include name="clickOnOneofEventInList"/>
+          <include name="enterEventNameInTextField"/>
+          <include name="clickOnMenuButton"/>
+        </methods>
+      </class> <!-- com.moofwd.V2Test.V2.MenuV2 -->
+      <class name="com.moofwd.V2Test.V2.EventV2">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="clickOnGalleryImageForZoomIn"/>
+          <include name="getOrientationForDevice"/>
+          <include name="clickOnNumber"/>
+        </methods>
+      </class> <!-- com.moofwd.V2Test.V2.EventV2 -->
+      <class name="com.moofwd.V2Base.TestBase">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.moofwd.V2Base.TestBase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

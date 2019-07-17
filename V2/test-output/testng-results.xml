@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="161849" started-at="2019-07-03T13:54:12Z" finished-at="2019-07-03T13:56:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="161849" started-at="2019-07-03T13:54:12Z" finished-at="2019-07-03T13:56:53Z">
+      <class name="com.moofwd.V2Test.V2.AnnouncementV2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="setUp" is-config="true" duration-ms="16" started-at="2019-07-03T19:26:05Z" finished-at="2019-07-03T19:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnAnnouncementMenu()[pri:16, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="clickOnAnnouncementMenu" duration-ms="7666" started-at="2019-07-03T19:26:05Z" finished-at="2019-07-03T19:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAnnouncementMenu -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-03T19:26:13Z" finished-at="2019-07-03T19:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnAnnouncementMenu status=SUCCESS method=AnnouncementV2.clickOnAnnouncementMenu()[pri:16, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="enterAnnouncementNameInTextField()[pri:17, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="enterAnnouncementNameInTextField" duration-ms="4868" started-at="2019-07-03T19:26:13Z" finished-at="2019-07-03T19:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAnnouncementNameInTextField -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-03T19:26:18Z" finished-at="2019-07-03T19:26:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterAnnouncementNameInTextField status=SUCCESS method=AnnouncementV2.enterAnnouncementNameInTextField()[pri:17, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOnOneOfAnnouncementInList()[pri:18, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="clickOnOneOfAnnouncementInList" duration-ms="7497" started-at="2019-07-03T19:26:18Z" finished-at="2019-07-03T19:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOneOfAnnouncementInList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-03T19:26:25Z" finished-at="2019-07-03T19:26:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnOneOfAnnouncementInList status=SUCCESS method=AnnouncementV2.clickOnOneOfAnnouncementInList()[pri:18, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOnBackButtonAnnouncement()[pri:19, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="clickOnBackButtonAnnouncement" duration-ms="5400" started-at="2019-07-03T19:26:25Z" finished-at="2019-07-03T19:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBackButtonAnnouncement -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-03T19:26:31Z" finished-at="2019-07-03T19:26:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnBackButtonAnnouncement status=SUCCESS method=AnnouncementV2.clickOnBackButtonAnnouncement()[pri:19, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOnHomeMenuIcon()[pri:20, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="clickOnHomeMenuIcon" duration-ms="12527" started-at="2019-07-03T19:26:31Z" finished-at="2019-07-03T19:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHomeMenuIcon -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-03T19:26:43Z" finished-at="2019-07-03T19:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnHomeMenuIcon status=SUCCESS method=AnnouncementV2.clickOnHomeMenuIcon()[pri:20, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="slideOfAnnouncement()[pri:21, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="slideOfAnnouncement" duration-ms="10154" started-at="2019-07-03T19:26:43Z" finished-at="2019-07-03T19:26:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slideOfAnnouncement -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-03T19:26:53Z" finished-at="2019-07-03T19:26:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=slideOfAnnouncement status=SUCCESS method=AnnouncementV2.slideOfAnnouncement()[pri:21, instance:com.moofwd.V2Test.V2.AnnouncementV2@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.moofwd.V2Test.V2.AnnouncementV2 -->
+      <class name="com.moofwd.V2Base.TestBase">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.moofwd.V2Base.TestBase@520a3426]" name="init" is-config="true" duration-ms="7300" started-at="2019-07-03T19:24:04Z" finished-at="2019-07-03T19:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.moofwd.V2Base.TestBase@520a3426]" name="tearDown" is-config="true" duration-ms="466" started-at="2019-07-03T19:26:54Z" finished-at="2019-07-03T19:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.moofwd.V2Base.TestBase -->
+      <class name="com.moofwd.V2Test.V2.MenuV2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010]" name="setUp" is-config="true" duration-ms="20" started-at="2019-07-03T19:25:40Z" finished-at="2019-07-03T19:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnMenuButton()[pri:11, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010]" name="clickOnMenuButton" duration-ms="8674" started-at="2019-07-03T19:25:40Z" finished-at="2019-07-03T19:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMenuButton -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-03T19:25:48Z" finished-at="2019-07-03T19:25:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnMenuButton status=SUCCESS method=MenuV2.clickOnMenuButton()[pri:11, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOnMenuEvents()[pri:12, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010]" name="clickOnMenuEvents" duration-ms="2840" started-at="2019-07-03T19:25:48Z" finished-at="2019-07-03T19:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMenuEvents -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-03T19:25:51Z" finished-at="2019-07-03T19:25:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnMenuEvents status=SUCCESS method=MenuV2.clickOnMenuEvents()[pri:12, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="enterEventNameInTextField()[pri:13, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010]" name="enterEventNameInTextField" duration-ms="3386" started-at="2019-07-03T19:25:51Z" finished-at="2019-07-03T19:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEventNameInTextField -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-03T19:25:55Z" finished-at="2019-07-03T19:25:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterEventNameInTextField status=SUCCESS method=MenuV2.enterEventNameInTextField()[pri:13, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOnOneofEventInList()[pri:14, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010]" name="clickOnOneofEventInList" duration-ms="3155" started-at="2019-07-03T19:25:55Z" finished-at="2019-07-03T19:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOneofEventInList -->
+        <test-method status="PASS" signature="backOnParticularPage()[pri:15, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010]" name="backOnParticularPage" duration-ms="7511" started-at="2019-07-03T19:25:58Z" finished-at="2019-07-03T19:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backOnParticularPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-03T19:25:58Z" finished-at="2019-07-03T19:25:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnOneofEventInList status=SUCCESS method=MenuV2.clickOnOneofEventInList()[pri:14, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-03T19:26:05Z" finished-at="2019-07-03T19:26:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=backOnParticularPage status=SUCCESS method=MenuV2.backOnParticularPage()[pri:15, instance:com.moofwd.V2Test.V2.MenuV2@3e9b1010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.moofwd.V2Test.V2.MenuV2 -->
+      <class name="com.moofwd.V2Test.V2.EventV2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="setUp" is-config="true" duration-ms="228" started-at="2019-07-03T19:24:12Z" finished-at="2019-07-03T19:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnEventPlaceHolder()[pri:1, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="clickOnEventPlaceHolder" duration-ms="11322" started-at="2019-07-03T19:24:12Z" finished-at="2019-07-03T19:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEventPlaceHolder -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="getResult" is-config="true" duration-ms="4" started-at="2019-07-03T19:24:23Z" finished-at="2019-07-03T19:24:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnEventPlaceHolder status=SUCCESS method=EventV2.clickOnEventPlaceHolder()[pri:1, instance:com.moofwd.V2Test.V2.EventV2@18eed359] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOncontextualMenu()[pri:2, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="clickOncontextualMenu" duration-ms="8852" started-at="2019-07-03T19:24:23Z" finished-at="2019-07-03T19:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOncontextualMenu -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-03T19:24:32Z" finished-at="2019-07-03T19:24:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOncontextualMenu status=SUCCESS method=EventV2.clickOncontextualMenu()[pri:2, instance:com.moofwd.V2Test.V2.EventV2@18eed359] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOnContextualMenuShare()[pri:3, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="clickOnContextualMenuShare" duration-ms="2350" started-at="2019-07-03T19:24:32Z" finished-at="2019-07-03T19:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContextualMenuShare -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-03T19:24:34Z" finished-at="2019-07-03T19:24:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnContextualMenuShare status=SUCCESS method=EventV2.clickOnContextualMenuShare()[pri:3, instance:com.moofwd.V2Test.V2.EventV2@18eed359] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOnContextualMenuShareCancel()[pri:4, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="clickOnContextualMenuShareCancel" duration-ms="13775" started-at="2019-07-03T19:24:34Z" finished-at="2019-07-03T19:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContextualMenuShareCancel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="getResult" is-config="true" duration-ms="2" started-at="2019-07-03T19:24:48Z" finished-at="2019-07-03T19:24:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnContextualMenuShareCancel status=SUCCESS method=EventV2.clickOnContextualMenuShareCancel()[pri:4, instance:com.moofwd.V2Test.V2.EventV2@18eed359] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOnContextualMenuAddToCalendar()[pri:6, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="clickOnContextualMenuAddToCalendar" duration-ms="5680" started-at="2019-07-03T19:24:48Z" finished-at="2019-07-03T19:24:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContextualMenuAddToCalendar -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-03T19:24:54Z" finished-at="2019-07-03T19:24:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnContextualMenuAddToCalendar status=SUCCESS method=EventV2.clickOnContextualMenuAddToCalendar()[pri:6, instance:com.moofwd.V2Test.V2.EventV2@18eed359] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOnNumber()[pri:8, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="clickOnNumber" duration-ms="14726" started-at="2019-07-03T19:24:54Z" finished-at="2019-07-03T19:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnNumber -->
+        <test-method status="PASS" signature="getOrientationForDevice()[pri:9, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="getOrientationForDevice" duration-ms="16569" started-at="2019-07-03T19:25:09Z" finished-at="2019-07-03T19:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrientationForDevice -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-03T19:25:09Z" finished-at="2019-07-03T19:25:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnNumber status=SUCCESS method=EventV2.clickOnNumber()[pri:8, instance:com.moofwd.V2Test.V2.EventV2@18eed359] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-03T19:25:25Z" finished-at="2019-07-03T19:25:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getOrientationForDevice status=SUCCESS method=EventV2.getOrientationForDevice()[pri:9, instance:com.moofwd.V2Test.V2.EventV2@18eed359] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickOnGalleryImageForZoomIn()[pri:10, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="clickOnGalleryImageForZoomIn" duration-ms="14569" started-at="2019-07-03T19:25:25Z" finished-at="2019-07-03T19:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGalleryImageForZoomIn -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.moofwd.V2Test.V2.EventV2@18eed359]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-03T19:25:40Z" finished-at="2019-07-03T19:25:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnGalleryImageForZoomIn status=SUCCESS method=EventV2.clickOnGalleryImageForZoomIn()[pri:10, instance:com.moofwd.V2Test.V2.EventV2@18eed359] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.moofwd.V2Test.V2.EventV2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
