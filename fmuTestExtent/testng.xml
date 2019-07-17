@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+       <!--  <class name="com.moofwd.base.TestBase"/>
+      <class name="fmuTestExtent.PublicDashboard"/>-->
+       <class name="fmuTestExtent.Academico"/>
+
+<!--       <class name="fmuTestExtent.Avisos"/>
+      <class name="fmuTestExtent.ContactUS"/>
+      <class name="fmuTestExtent.Documents"/>
+      <class name="fmuTestExtent.Eventos"/>
+      <class name="fmuTestExtent.FAQ"/>  
+       <class name="fmuTestExtent.Finance"/> 
+      <class name="fmuTestExtent.Noticias"/>
+      <class name="fmuTestExtent.Notifications"/>
+      <class name="fmuTestExtent.Perfil"/>
+      <class name="fmuTestExtent.Redes_Social"/>
+      <class name="fmuTestExtent.Services"/>
+      <class name="fmuTestExtent.Settings"/>
+      <class name="fmuTestExtent.SPTrance"/> -->  
+    </classes>
+    
+     <!-- <classes>
+       <class name="com.moofwd.base.TestBase"/>
+      <class name="fmuTestExtent.PublicDashboardAndroid"/>
+      <class name="fmuTestExtent.AvisosAndroid"/>
+      <class name="fmuTestExtent.ContactUsAndroid"/>
+      <class name="fmuTestExtent.DocumentsAndroid"/>
+      <class name="fmuTestExtent.EventosAndroid"/>
+      <class name="fmuTestExtent.FAQAndroid"/> 
+       <class name="fmuTestExtent.FinanceAndroid"/> 
+      <class name="fmuTestExtent.NoticiasAndroid"/>
+      <class name="fmuTestExtent.NotificationsAndroid"/>
+      <class name="fmuTestExtent.PerfilAndroid"/>
+      <class name="fmuTestExtent.Redes_SocialAndroid"/>
+      <class name="fmuTestExtent.ServicesAndroid"/>
+      <class name="fmuTestExtent.SettingsAndroid"/>
+      <class name="fmuTestExtent.SPTransAndroid"/> 
+    </classes> -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

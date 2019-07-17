@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="fmuTestExtent.Academico">
+        <methods>
+          <include name="click_On_OneofDisciplinas"/>
+          <include name="click_On_Faltas_Courses"/>
+          <include name="click_On_Tarefas"/>
+          <include name="init"/>
+          <include name="click_On_Participants"/>
+          <include name="click_On_OneofNotas"/>
+          <include name="click_On_Historica_Courses"/>
+          <include name="setUp"/>
+          <include name="click_On_Aulas_Courses"/>
+          <include name="click_On_Arquivos"/>
+          <include name="getResult"/>
+          <include name="click_On_Disciplinas"/>
+          <include name="click_On_Notas_Courses"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Academico -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
