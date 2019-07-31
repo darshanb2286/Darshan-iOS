@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 5, Errors: 0, Skipped: 13, Time elapsed: 562.139 s <<< FAILURE! - in TestSuite
+click_On_Disciplinas(fmuTestExtent.Academico)  Time elapsed: 97.276 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeButton[@name="Academico"]/XCUIElementTypeButton[@name="Disciplinas"]})
+	at fmuTestExtent.Academico.click_On_Disciplinas(Academico.java:40)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5ba88be8 (tried for 1 second(s) with 500 milliseconds interval)
+	at fmuTestExtent.Academico.click_On_Disciplinas(Academico.java:40)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //XCUIElementTypeButton[@name="Academico"]/XCUIElementTypeButton[@name="Disciplinas"]})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Darshans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cc3:fa3f:3284:44f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: driver.version: IOSDriver
+	at fmuTestExtent.Academico.click_On_Disciplinas(Academico.java:40)
+
+click_On_OneofDisciplinas(fmuTestExtent.Academico)  Time elapsed: 91.005 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeApplication[@name='MaisFMUFIAM']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]})
+	at fmuTestExtent.Academico.click_On_OneofDisciplinas(Academico.java:64)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7a1234bf (tried for 1 second(s) with 500 milliseconds interval)
+	at fmuTestExtent.Academico.click_On_OneofDisciplinas(Academico.java:64)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //XCUIElementTypeApplication[@name='MaisFMUFIAM']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Darshans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cc3:fa3f:3284:44f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: driver.version: IOSDriver
+	at fmuTestExtent.Academico.click_On_OneofDisciplinas(Academico.java:64)
+
+click_On_Tarefas(fmuTestExtent.Academico)  Time elapsed: 92.445 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeButton[@name='Course assignments icon']})
+	at fmuTestExtent.Academico.click_On_Tarefas(Academico.java:79)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4426bff1 (tried for 1 second(s) with 500 milliseconds interval)
+	at fmuTestExtent.Academico.click_On_Tarefas(Academico.java:79)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //XCUIElementTypeButton[@name='Course assignments icon']})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Darshans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cc3:fa3f:3284:44f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: driver.version: IOSDriver
+	at fmuTestExtent.Academico.click_On_Tarefas(Academico.java:79)
+
+click_On_Participants(fmuTestExtent.Academico)  Time elapsed: 90.67 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeButton[@name='Course participants icon']})
+	at fmuTestExtent.Academico.click_On_Participants(Academico.java:107)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7e4204e2 (tried for 1 second(s) with 500 milliseconds interval)
+	at fmuTestExtent.Academico.click_On_Participants(Academico.java:107)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //XCUIElementTypeButton[@name='Course participants icon']})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Darshans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cc3:fa3f:3284:44f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: driver.version: IOSDriver
+	at fmuTestExtent.Academico.click_On_Participants(Academico.java:107)
+
+getResult(fmuTestExtent.Academico)  Time elapsed: 102.422 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Session does not exist
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Darshans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cc3:fa3f:3284:44f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {automationName: XCuiTest, browserName: , bundleId: com.moofwd.br.fmu, databaseEnabled: false, deviceName: MooFwd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 12.2, takesScreenshot: true, udid: bf69b67f1c49867e5f54dc1a8d9..., updateWDABundleId: com.moofwd.br.fmu, webStorageEnabled: false, xcodeOrgId: 9C82H6HW5W, xcodeSigningid: iPhone Developer}
+Session ID: 2836d980-a9bf-41e4-a176-82eaa863f5d9
+

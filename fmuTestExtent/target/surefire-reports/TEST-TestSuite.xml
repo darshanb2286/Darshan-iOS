@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="562.139" tests="23" errors="0" skipped="13" failures="5">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/darshanborse/Documents/workspace/fmuTestExtent/target/test-classes:/Users/darshanborse/Documents/workspace/fmuTestExtent/target/classes:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/darshanborse/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/darshanborse/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/darshanborse/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/darshanborse/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/darshanborse/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/darshanborse/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/darshanborse/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/darshanborse/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/darshanborse/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/darshanborse/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/darshanborse/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/darshanborse/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/darshanborse/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/darshanborse/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/darshanborse/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar:/Users/darshanborse/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/darshanborse/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/darshanborse/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/darshanborse/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/darshanborse/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/darshanborse/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/darshanborse/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/darshanborse/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/darshanborse/.m2/repository/io/appium/java-client/7.0.0/java-client-7.0.0.jar:/Users/darshanborse/.m2/repository/cglib/cglib/3.2.8/cglib-3.2.8.jar:/Users/darshanborse/.m2/repository/org/ow2/asm/asm/6.2.1/asm-6.2.1.jar:/Users/darshanborse/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/darshanborse/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/darshanborse/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/darshanborse/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/darshanborse/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/darshanborse/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/darshanborse/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/darshanborse/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/darshanborse/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/darshanborse/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/darshanborse/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/darshanborse/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/darshanborse/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="IN"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/darshanborse/Documents/workspace/fmuTestExtent/target/surefire/surefirebooter8156216305957946691.jar /Users/darshanborse/Documents/workspace/fmuTestExtent/target/surefire 2019-07-24T21-07-07_715-jvmRun1 surefire2138936570844286453tmp surefire_06639736357419292363tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/darshanborse/Documents/workspace/fmuTestExtent/target/test-classes:/Users/darshanborse/Documents/workspace/fmuTestExtent/target/classes:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/darshanborse/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/darshanborse/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/darshanborse/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/darshanborse/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/darshanborse/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/darshanborse/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/darshanborse/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/darshanborse/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/darshanborse/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/darshanborse/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/darshanborse/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/darshanborse/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/darshanborse/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/darshanborse/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/darshanborse/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/darshanborse/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar:/Users/darshanborse/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/darshanborse/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/darshanborse/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/darshanborse/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/darshanborse/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/darshanborse/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/darshanborse/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/darshanborse/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/darshanborse/.m2/repository/io/appium/java-client/7.0.0/java-client-7.0.0.jar:/Users/darshanborse/.m2/repository/cglib/cglib/3.2.8/cglib-3.2.8.jar:/Users/darshanborse/.m2/repository/org/ow2/asm/asm/6.2.1/asm-6.2.1.jar:/Users/darshanborse/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/darshanborse/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/darshanborse/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/darshanborse/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/darshanborse/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/darshanborse/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/darshanborse/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar:/Users/darshanborse/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/darshanborse/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/darshanborse/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/darshanborse/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/darshanborse/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/darshanborse/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/darshanborse/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/darshanborse"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/darshanborse/Documents/workspace/fmuTestExtent"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/darshanborse/Documents/workspace/fmuTestExtent/target/surefire/surefirebooter8156216305957946691.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.name" value="darshanborse"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.4"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/darshanborse/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/d_/k_vw874x03v26f79qllhlw980000gn/T/"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="/Users/darshanborse/Documents/workspace/fmuTestExtent"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/darshanborse/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.ext.dirs" value="/Users/darshanborse/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="clickOnArrow" classname="fmuTestExtent.PublicDashboard" time="1.112"/>
+  <testcase name="clickOn_Ir_Para_O_LogIn" classname="fmuTestExtent.PublicDashboard" time="1.201"/>
+  <testcase name="credentials_Enter_LogIn" classname="fmuTestExtent.PublicDashboard" time="41.186"/>
+  <testcase name="clickOn_Li_e_concordo" classname="fmuTestExtent.PublicDashboard" time="18.414"/>
+  <testcase name="click_On_Academico" classname="fmuTestExtent.Academico" time="14.245"/>
+  <testcase name="click_On_Disciplinas" classname="fmuTestExtent.Academico" time="97.276">
+    <failure message="Can&apos;t locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeButton[@name=&quot;Academico&quot;]/XCUIElementTypeButton[@name=&quot;Disciplinas&quot;]})" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeButton[@name="Academico"]/XCUIElementTypeButton[@name="Disciplinas"]})
+	at fmuTestExtent.Academico.click_On_Disciplinas(Academico.java:40)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5ba88be8 (tried for 1 second(s) with 500 milliseconds interval)
+	at fmuTestExtent.Academico.click_On_Disciplinas(Academico.java:40)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //XCUIElementTypeButton[@name="Academico"]/XCUIElementTypeButton[@name="Disciplinas"]})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Darshans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cc3:fa3f:3284:44f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: driver.version: IOSDriver
+	at fmuTestExtent.Academico.click_On_Disciplinas(Academico.java:40)
+</failure>
+    <system-out><![CDATA[touchAction :: io.appium.java_client.ios.IOSDriver, Capabilities: {automationName=XCuiTest, browserName=, bundleId=com.moofwd.br.fmu, databaseEnabled=false, deviceName=MooFwd, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=false, platform=MAC, platformName=iOS, platformVersion=12.2, takesScreenshot=true, udid=bf69b67f1c49867e5f54dc1a8d9c933230364658, updateWDABundleId=com.moofwd.br.fmu, webStorageEnabled=false, xcodeOrgId=9C82H6HW5W, xcodeSigningid=iPhone Developer}
+clickOnDisciplinasIos
+]]></system-out>
+  </testcase>
+  <testcase name="click_On_OneofDisciplinas" classname="fmuTestExtent.Academico" time="91.005">
+    <failure message="Can&apos;t locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeApplication[@name=&apos;MaisFMUFIAM&apos;]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]})" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeApplication[@name='MaisFMUFIAM']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]})
+	at fmuTestExtent.Academico.click_On_OneofDisciplinas(Academico.java:64)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7a1234bf (tried for 1 second(s) with 500 milliseconds interval)
+	at fmuTestExtent.Academico.click_On_OneofDisciplinas(Academico.java:64)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //XCUIElementTypeApplication[@name='MaisFMUFIAM']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Darshans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cc3:fa3f:3284:44f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: driver.version: IOSDriver
+	at fmuTestExtent.Academico.click_On_OneofDisciplinas(Academico.java:64)
+</failure>
+  </testcase>
+  <testcase name="click_On_Tarefas" classname="fmuTestExtent.Academico" time="92.445">
+    <failure message="Can&apos;t locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeButton[@name=&apos;Course assignments icon&apos;]})" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeButton[@name='Course assignments icon']})
+	at fmuTestExtent.Academico.click_On_Tarefas(Academico.java:79)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4426bff1 (tried for 1 second(s) with 500 milliseconds interval)
+	at fmuTestExtent.Academico.click_On_Tarefas(Academico.java:79)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //XCUIElementTypeButton[@name='Course assignments icon']})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Darshans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cc3:fa3f:3284:44f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: driver.version: IOSDriver
+	at fmuTestExtent.Academico.click_On_Tarefas(Academico.java:79)
+</failure>
+  </testcase>
+  <testcase name="click_On_Participants" classname="fmuTestExtent.Academico" time="90.67">
+    <failure message="Can&apos;t locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeButton[@name=&apos;Course participants icon&apos;]})" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeButton[@name='Course participants icon']})
+	at fmuTestExtent.Academico.click_On_Participants(Academico.java:107)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7e4204e2 (tried for 1 second(s) with 500 milliseconds interval)
+	at fmuTestExtent.Academico.click_On_Participants(Academico.java:107)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //XCUIElementTypeButton[@name='Course participants icon']})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Darshans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cc3:fa3f:3284:44f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: driver.version: IOSDriver
+	at fmuTestExtent.Academico.click_On_Participants(Academico.java:107)
+</failure>
+  </testcase>
+  <testcase name="getResult" classname="fmuTestExtent.Academico" time="102.422">
+    <failure message="Session does not exist&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Darshans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cc3:fa3f:3284:44f0%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Capabilities {automationName: XCuiTest, browserName: , bundleId: com.moofwd.br.fmu, databaseEnabled: false, deviceName: MooFwd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 12.2, takesScreenshot: true, udid: bf69b67f1c49867e5f54dc1a8d9..., updateWDABundleId: com.moofwd.br.fmu, webStorageEnabled: false, xcodeOrgId: 9C82H6HW5W, xcodeSigningid: iPhone Developer}&#10;Session ID: 2836d980-a9bf-41e4-a176-82eaa863f5d9" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session does not exist
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Darshans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cc3:fa3f:3284:44f0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {automationName: XCuiTest, browserName: , bundleId: com.moofwd.br.fmu, databaseEnabled: false, deviceName: MooFwd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 12.2, takesScreenshot: true, udid: bf69b67f1c49867e5f54dc1a8d9..., updateWDABundleId: com.moofwd.br.fmu, webStorageEnabled: false, xcodeOrgId: 9C82H6HW5W, xcodeSigningid: iPhone Developer}
+Session ID: 2836d980-a9bf-41e4-a176-82eaa863f5d9
+</failure>
+  </testcase>
+  <testcase name="getResult" classname="fmuTestExtent.Academico" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="fmuTestExtent.Academico" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="fmuTestExtent.Academico" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="fmuTestExtent.Academico" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="fmuTestExtent.Academico" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="fmuTestExtent.Academico" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="click_On_Arquivos" classname="fmuTestExtent.Academico" time="0">
+    <skipped message="Session does not exist&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Darshans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cc3:fa3f:3284:44f0%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Capabilities {automationName: XCuiTest, browserName: , bundleId: com.moofwd.br.fmu, databaseEnabled: false, deviceName: MooFwd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 12.2, takesScreenshot: true, udid: bf69b67f1c49867e5f54dc1a8d9..., updateWDABundleId: com.moofwd.br.fmu, webStorageEnabled: false, xcodeOrgId: 9C82H6HW5W, xcodeSigningid: iPhone Developer}&#10;Session ID: 2836d980-a9bf-41e4-a176-82eaa863f5d9"/>
+  </testcase>
+  <testcase name="click_On_Notas_Courses" classname="fmuTestExtent.Academico" time="0">
+    <skipped message="Session does not exist&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Darshans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cc3:fa3f:3284:44f0%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Capabilities {automationName: XCuiTest, browserName: , bundleId: com.moofwd.br.fmu, databaseEnabled: false, deviceName: MooFwd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 12.2, takesScreenshot: true, udid: bf69b67f1c49867e5f54dc1a8d9..., updateWDABundleId: com.moofwd.br.fmu, webStorageEnabled: false, xcodeOrgId: 9C82H6HW5W, xcodeSigningid: iPhone Developer}&#10;Session ID: 2836d980-a9bf-41e4-a176-82eaa863f5d9"/>
+  </testcase>
+  <testcase name="click_On_OneofNotas" classname="fmuTestExtent.Academico" time="0">
+    <skipped message="Session does not exist&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Darshans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cc3:fa3f:3284:44f0%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Capabilities {automationName: XCuiTest, browserName: , bundleId: com.moofwd.br.fmu, databaseEnabled: false, deviceName: MooFwd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 12.2, takesScreenshot: true, udid: bf69b67f1c49867e5f54dc1a8d9..., updateWDABundleId: com.moofwd.br.fmu, webStorageEnabled: false, xcodeOrgId: 9C82H6HW5W, xcodeSigningid: iPhone Developer}&#10;Session ID: 2836d980-a9bf-41e4-a176-82eaa863f5d9"/>
+  </testcase>
+  <testcase name="click_On_Historica_Courses" classname="fmuTestExtent.Academico" time="0">
+    <skipped message="Session does not exist&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Darshans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cc3:fa3f:3284:44f0%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Capabilities {automationName: XCuiTest, browserName: , bundleId: com.moofwd.br.fmu, databaseEnabled: false, deviceName: MooFwd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 12.2, takesScreenshot: true, udid: bf69b67f1c49867e5f54dc1a8d9..., updateWDABundleId: com.moofwd.br.fmu, webStorageEnabled: false, xcodeOrgId: 9C82H6HW5W, xcodeSigningid: iPhone Developer}&#10;Session ID: 2836d980-a9bf-41e4-a176-82eaa863f5d9"/>
+  </testcase>
+  <testcase name="click_On_Aulas_Courses" classname="fmuTestExtent.Academico" time="0">
+    <skipped message="Session does not exist&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Darshans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cc3:fa3f:3284:44f0%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Capabilities {automationName: XCuiTest, browserName: , bundleId: com.moofwd.br.fmu, databaseEnabled: false, deviceName: MooFwd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 12.2, takesScreenshot: true, udid: bf69b67f1c49867e5f54dc1a8d9..., updateWDABundleId: com.moofwd.br.fmu, webStorageEnabled: false, xcodeOrgId: 9C82H6HW5W, xcodeSigningid: iPhone Developer}&#10;Session ID: 2836d980-a9bf-41e4-a176-82eaa863f5d9"/>
+  </testcase>
+  <testcase name="click_On_Faltas_Courses" classname="fmuTestExtent.Academico" time="0">
+    <skipped message="Session does not exist&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Darshans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1cc3:fa3f:3284:44f0%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Capabilities {automationName: XCuiTest, browserName: , bundleId: com.moofwd.br.fmu, databaseEnabled: false, deviceName: MooFwd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 12.2, takesScreenshot: true, udid: bf69b67f1c49867e5f54dc1a8d9..., updateWDABundleId: com.moofwd.br.fmu, webStorageEnabled: false, xcodeOrgId: 9C82H6HW5W, xcodeSigningid: iPhone Developer}&#10;Session ID: 2836d980-a9bf-41e4-a176-82eaa863f5d9"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.moofwd.base.TestBase" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

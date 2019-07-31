@@ -32,7 +32,6 @@ import com.moofwd.pages.ServicesPageFactory;
 import com.moofwd.pages.SettingsPageFactory;
 import com.moofwd.pages.SocialPageFactory;
 
-import fmuTestExtent.GetScreenShot;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;

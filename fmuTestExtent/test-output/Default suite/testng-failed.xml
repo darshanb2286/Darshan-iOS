@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="fmuTestExtent.SPTrance">
+        <methods>
+          <include name="click_On_Carteirinha"/>
+          <include name="click_On_SPTrance"/>
+        </methods>
+      </class> <!-- fmuTestExtent.SPTrance -->
+      <class name="fmuTestExtent.Services">
+        <methods>
+          <include name="clickOn_Services"/>
+          <include name="click_On_OneoftheServices"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Services -->
+      <class name="fmuTestExtent.Eventos">
+        <methods>
+          <include name="click_On_Antigo"/>
+          <include name="click_on_Eventos"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Eventos -->
+      <class name="fmuTestExtent.Documents">
+        <methods>
+          <include name="click_On_Documents"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Documents -->
+      <class name="fmuTestExtent.PublicDashboard">
+        <methods>
+          <include name="clickOnArrow"/>
+          <include name="credentials_Enter_LogIn"/>
+          <include name="clickOn_Ir_Para_O_LogIn"/>
+          <include name="clickOn_Li_e_concordo"/>
+        </methods>
+      </class> <!-- fmuTestExtent.PublicDashboard -->
+      <class name="fmuTestExtent.Redes_Social">
+        <methods>
+          <include name="clickOn_redes_social"/>
+          <include name="init"/>
+          <include name="Social_Icons"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Redes_Social -->
+      <class name="fmuTestExtent.Finance">
+        <methods>
+          <include name="clickOn_Close_PopUp_Finance"/>
+          <include name="clickOn_Paid"/>
+          <include name="clickOn_Download_Receipt"/>
+          <include name="clickOn_Finance"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Finance -->
+      <class name="fmuTestExtent.ContactUS">
+        <methods>
+          <include name="clickOn_ContactUs"/>
+        </methods>
+      </class> <!-- fmuTestExtent.ContactUS -->
+      <class name="fmuTestExtent.Notifications">
+        <methods>
+          <include name="click_On_Notifications_settings"/>
+          <include name="click_On_notifications"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Notifications -->
+      <class name="fmuTestExtent.Avisos">
+        <methods>
+          <include name="click_On_OneOf_Avisos"/>
+          <include name="click_On_Avisos"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Avisos -->
+      <class name="fmuTestExtent.FAQ">
+        <methods>
+          <include name="click_On_FAQ"/>
+        </methods>
+      </class> <!-- fmuTestExtent.FAQ -->
+      <class name="fmuTestExtent.Noticias">
+        <methods>
+          <include name="click_On_Noticias_link"/>
+          <include name="click_On_noticias"/>
+          <include name="click_On_OneofNoticias"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Noticias -->
+      <class name="fmuTestExtent.Settings">
+        <methods>
+          <include name="click_On_Salve"/>
+          <include name="click_on_Settings"/>
+          <include name="settings_click_LogOut"/>
+          <include name="clickOn_Sobre_Nos"/>
+          <include name="clickOn_PoliticaDe_Privacidad"/>
+          <include name="click_On_Notifications"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Settings -->
+      <class name="fmuTestExtent.Academico">
+        <methods>
+          <include name="click_On_OneofDisciplinas"/>
+          <include name="click_On_Academico"/>
+          <include name="click_On_Faltas_Courses"/>
+          <include name="click_On_Tarefas"/>
+          <include name="click_On_Historica_Courses"/>
+          <include name="click_On_Aulas_Courses"/>
+          <include name="click_On_Arquivos"/>
+          <include name="click_On_Disciplinas"/>
+          <include name="click_On_Participants"/>
+          <include name="click_On_OneofNotas"/>
+          <include name="click_On_Notas_Courses"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Academico -->
+      <class name="fmuTestExtent.Perfil">
+        <methods>
+          <include name="click_On_Perfil"/>
+          <include name="click_On_Check_Edition"/>
+          <include name="click_On_Edit_Perfil"/>
+        </methods>
+      </class> <!-- fmuTestExtent.Perfil -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
